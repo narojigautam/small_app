@@ -16,12 +16,12 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 Dir[File.join(File.expand_path(File.dirname(__FILE__)), "../lib/*.rb")].map { |file| require file }
 
-require 'factory_girl'
-FactoryGirl.definition_file_paths = [File.expand_path('../factories', __FILE__)]
-FactoryGirl.find_definitions
+# require 'factory_girl'
+# FactoryGirl.definition_file_paths = [File.expand_path('../factories', __FILE__)]
+# FactoryGirl.find_definitions
 
 RSpec.configure do |config|
-  config.include FactoryGirl::Syntax::Methods
+  # config.include FactoryGirl::Syntax::Methods
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
