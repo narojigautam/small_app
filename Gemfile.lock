@@ -1,7 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    cuba (3.4.0)
+      rack
     diff-lcs (1.2.5)
+    mote (1.1.4)
+    mote-render (1.1.0)
+    rack (1.6.4)
     rake (10.3.2)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
@@ -20,5 +25,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cuba
+  mote
+  mote-render
   rake
   rspec
