@@ -19,7 +19,9 @@ Setup :-
 
 Run this app using command :-
 -----------------------------
-    ruby bin/app.rb
+    rackup
+
+    Traverse to 127.0.0.1:9292
 
 
 Run test cases using the command :-
