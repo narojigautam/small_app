@@ -1,1 +1,7 @@
 <h2>Map Widgets</h2>
+<div ng-controller="AppCtrl">
+    <h3>Work Locations</h3>
+    <emp-location info="work_locations"></emp-location>
+    <h3>Invoiced Customers</h3>
+    <sales-flow info="invoiced_customers"></sales-flow>
+</div>

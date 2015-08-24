@@ -27,3 +27,4 @@ Run this app using command :-
 Run test cases using the command :-
 -----------------------------------
     rake spec
+    grunt karma
