@@ -1,0 +1,3 @@
+class InvoicedCustomers < BaseCollection
+
+end

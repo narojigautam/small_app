@@ -1,0 +1,3 @@
+class WorkLocations < BaseCollection
+	
+end
