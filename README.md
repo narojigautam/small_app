@@ -28,3 +28,8 @@ Run test cases using the command :-
 -----------------------------------
     rake spec
     grunt karma
+
+Assumptions :-
+-----------------------------------
+    Workplace location details have been assumed so that they can be represented in the map.
+    Invoice Data without any country details has been put under "-" key. This is not represented in the map.
